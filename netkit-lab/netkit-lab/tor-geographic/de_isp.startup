@@ -1,0 +1,10 @@
+ifconfig eth0 11.1.1.1/24
+ifconfig eth1 96.96.96.14/30
+
+# AS Routing
+route add -net 83.3.3.0/24 gw 96.96.96.13 dev eth1 # Russia Route
+route add -net 52.2.2.0/24 gw 96.96.96.13 dev eth1 # UK Route
+route add -net 124.4.4.0/24 gw 96.96.96.13 dev eth1 # US Route
+#route add -net 11.1.1.0/24 gw 96.96.96.13 dev eth1 # Germany Route
+
+route add default gw 96.96.96.13

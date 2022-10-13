@@ -1,0 +1,5 @@
+# Configure Interfaces
+ifconfig eth0 69.9.9.3/28
+ifconfig eth1 120.2.2.1/24
+
+

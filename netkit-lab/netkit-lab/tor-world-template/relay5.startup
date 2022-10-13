@@ -1,0 +1,16 @@
+ifconfig eth0 hw ether 02:60:ac:7a:bc:05
+ifconfig eth0 120.2.2.16/24
+	
+route add default gw 120.2.2.1 dev eth0
+
+# Make Tor Directories if they do not exist
+mkdir -p /var/lib/tor
+mkdir -p /var/log/tor
+
+# Ensure the tor user owns these directories
+chown -R debian-tor:debian-tor /var/lib/tor
+chown -R debian-tor:debian-tor /var/log/tor
+systemctl start tor
+echo 'Checking for tor's death!
+sleep 5
+cat /var/log/tor/debug.log | grep Dying

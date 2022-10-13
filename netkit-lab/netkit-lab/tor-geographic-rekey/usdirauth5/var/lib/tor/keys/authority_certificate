@@ -1,0 +1,46 @@
+dir-key-certificate-version 3
+dir-address 124.4.4.6:7000
+fingerprint 1B4EB9014B33DDA9311676591F01DE4CE6A46E12
+dir-key-published 2021-12-17 18:32:39
+dir-key-expires 2022-12-17 18:32:39
+dir-identity-key
+-----BEGIN RSA PUBLIC KEY-----
+MIIBigKCAYEArpwaokyUUukMqaW0OdRLIDDzSdT9p/SJ0j7re3W5xVjMJxAHBQpj
+TzeBbHd//8uVuN5PV6rSOnkPd09HjuLgPQmLIe8HvPaT7u2Dv9mZZhaslaTYEaZ8
++SRkzvxzmqmXeyx23UmBw0VIFcccMdlYvcTOow1d5pbkTSuIq/MPiHWCjcKRs+kj
+QGwMhNsOxi5W6osbm4XfxvJcy9zKknfAzEuU9kyuVPqxcMxfkkCtxsJp8Oh0cqpx
+Ep9R20LhwaUhwS0dtU3NAQherFSPhnbwP2x1Q04dCJVJUTxuuEkKIddTqc355f/J
+d0ezsW2r3MvJXjB1JZdoCeKMFcagLtuChaHxny8er1w7PDeUMj6Byq8eKRah+LMI
++tGX1fbqcVXN7dAfLMK4hqR+9ghF8gUQmxPMfi6uquwovLCU/RpFlvum1A1y5K7u
+HH827hj/KieYOwnzMvTnX4KR7rEQqSipaDyPjqikDJwYMEp1lHcA3x8MFFBO0snb
+f8OLbU9yUWDbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+dir-signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEAxQ1fGjA8SQH/Q5TtH0r+Q6oZV6mlBUBclaVsW7k+YxmhXHvUvALJ
+vAQqz6/CY3rq5Dl1W7jxSPqxPNQEZbs/UYkGB4fM04RnAkEyevRxhVOwpI+zOh/Z
+l1syZJ+MKe5s3HPq6IYPCNumoeXtmbI9zCpn6Cws1R9bEBqMs3IAaH7Dir8AkHZx
+nEMTOsfarbyYsmNU5JaO8PgHHjrCr+4Dhp3DKogpX+ct9GQvv9Kin7+OyzLjjb+/
+4HpMeGmUqxVsT/qqarKlAFzkuttIQTgb2wsZ+h/yQwEwO9Mryx+mJ7ZZ1Y3xR08Y
+Q7X5rbMuGLJEIVFf0q/iEW7GDojBmdrRAQIDAQAB
+-----END RSA PUBLIC KEY-----
+dir-key-crosscert
+-----BEGIN ID SIGNATURE-----
+svt2rFfnFUPmespr5UlCrqH4uvBSmG/DqqFs9h8DwVuJkKLwI4zVwlXO/yG7ea9z
+ixCDH+fTuMa5gLwbgll2pCzSPY1+jW2jUSkMJFKbAx+kHzhtk7SvPBA/Xbx0npwy
+xWXh9zWceRZ7QooI3N+VfX5Zbgk6ZEE6IzolitoeYt2nDIbR10akfJ7tKAjI5bbG
+a/MVfuJLJLgXcYGTgmF85mnUwNli6bTCcACPGMuvtSCAwG/DpwKyfN1Jj3CY7YnI
+5GZb5/7avdaoxjtZpbQ/AlqbFBRcRlvzuDInYtpLBXuKcCAYTSQjdugdS8S+xleF
+KAHO9afOYljPCSHXmDh7fQ==
+-----END ID SIGNATURE-----
+dir-key-certification
+-----BEGIN SIGNATURE-----
+WlvkbIrlbF52suLOY6zumyjSWP0kTttKJrVTiqri8wiw0NIkRnuVk7ntZ52ffT+J
+DutvHwXjl8Zhz8BZa+Ue2vxaWhntTMTWYrvX1GNls7v/4NfuVQzJTQDbP2i5M+un
+QGj3iMu8blWjauXmk0QCMjSNFb6DfR8lpYSVpukQrysUocviFdq3pGAGR3gjhhTw
+Gbpk7N7h8QN4bcD1+RvXTX6P3lAwECcRDMhGBLxLelbF7mROAQkx2JqrU7MCbnk3
+7wgy4yAVh8O1/sAmsVweE+cNnkTsRSI0ZFN8myHxaZ0ZYELEt0Ykb490CHCo0iyA
+oiGw8vu3MiZtL+qfgJ2XpyokBKPt7ikaTflGLhz48OVAQvc2OpfqNPBcy/H1JywV
+T1pPmCNwvEaUhUlzeTZULo9n7AL07pNqJMJcX1ZTQCwD2Ti+o7O3TVqiPih9niFR
+0nqSarZeVMImoRdfkNFNB72JJevsr1eE6+lwD7Q/DUiNYIhG0SFU+1SGV1X0KuVz
+-----END SIGNATURE-----

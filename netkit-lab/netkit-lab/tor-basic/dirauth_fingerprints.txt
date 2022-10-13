@@ -1,0 +1,12 @@
+Machine name: dirauth1
+Certificate fingerprint is: 99C787804AB9A15F30B45F7FB184FD4FD522436C
+Onion Fingerprint is: 5BB6046CB5A502ADB46A3718E15D0B459C8889EC
+---------------------------------------------------------------------
+Machine name: dirauth2
+Certificate fingerprint is: 5FE96750358D5143C6B981B2ECDBD6AD36379F6A
+Onion Fingerprint is: FA390D0A9D734A210876BEE9D613FAF4947DBCF1
+---------------------------------------------------------------------
+Machine name: dirauth3
+Certificate fingerprint is: A77CCF64000EAD38FBDF559D667C21C4EB210EA3
+Onion Fingerprint is: 31EB80A82A9F4E7CB8CD79650D897181944ED4BB
+---------------------------------------------------------------------

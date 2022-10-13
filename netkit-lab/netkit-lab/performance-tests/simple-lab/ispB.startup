@@ -1,0 +1,8 @@
+# wanA
+ifconfig eth0 52.2.2.3/24
+
+# ispB <-> gw3-4
+ifconfig eth1 65.4.4.1/30
+
+# Gateway behind ispB
+route add -net 62.3.3.0/29 gw 52.2.2.2 dev eth0

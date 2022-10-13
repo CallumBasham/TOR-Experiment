@@ -1,0 +1,14 @@
+# ispB <-> gw3-4
+ifconfig eth0 65.4.4.2/30
+
+# lanA
+ifconfig eth1 10.10.0.1/24
+
+
+# NAT
+echo "1" > /proc/sys/net/ipv4/ip_forward
+iptables -t nat -A POSTROUTING -o eth0 ! -d 10.10.0.0/24 -j SNAT --to-source 65.4.4.2 -m comment --comment "NAT outbound traffic only to this eth0 source"
+
+
+# default gateway = ISP
+route add default gw 65.4.4.1

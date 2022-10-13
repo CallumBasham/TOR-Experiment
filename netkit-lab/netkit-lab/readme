@@ -1,0 +1,21 @@
+This directory contains all the work which goes into the Tor Dissertation
+
+v1-create-tor.sh # Is the script ran to BUILD A TOR LAB from scratch. This will perform the following:
+	1. Create a directory from the location its ran
+	2. Install onto the HOST SYSTEM telnetd for host-to-netkit communication
+	3. Install Tor packages into the DEFAULT NETKIT FILESYSTEM 
+	4. Perform an automated process of booting netkits, configuring Tor, and saving the configuratiosn to the host lab directory
+
+performance-tests/ # Contains manually built labs for testing hosting environments, this is due to a certain computer being far too slow to run Netkit, and therefore a generic test is performed to ensure a host is suitable for a lab the size of Tor. 
+
+tor-basic/ # Contains the first final manually built tor lab, this works but may contain human error
+
+tor-world-template/ # contains the lab following the running of *v1-create-tor.sh*, which is automatically built by script and works from build, this directory is later copied and edited for the needs of this dissertation. 
+
+tor-geographic/ # contains the content of *tor-world-template/*, except manually renamed, and Tor configurations manually edited, and due to the sheer size it takes too long to re-generate Tor keys and therefore THIS ONE FAILED
+
+tor-geographic-post-script-template/ #Contains the *tor-work-template/*, with a script inside called **transpose-lab.sh**, which converts this automated build of a lab into the one used within the Dissertation in terms of nomenclature, e.g. renames dirauth4.startup to uk_relay3.startup
+
+tor-geographic-rekey/ # contains the contents of *tor-geographic-post-script-template/* after having ran *transpose-lab.sh*, and then the tor configuration files are updated, since the name of all the hosts have changed, and their IP addresses have been ameneded - this is the *version used within the dissertation for section 5.5 Lab-03: Netkit/tor-geographic/*
+
+

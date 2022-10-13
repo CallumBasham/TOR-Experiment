@@ -1,0 +1,485 @@
+    1  chmod +x *
+    2  ./*
+    3  touch lab.conf
+    4  touch {a,b,c,d,e,f,g,h,i,j,k,m,l,n,o,p,q,r,s,w,z,x,v,n}.startup
+    5  mkdir {a,b,c,d,e,f,g,h,i,j,k,m,l,n,o,p,q,r,s,w,z,x,v,n}
+    6  lstart
+    7  lcrash
+    8  lclean
+    9  lstart
+   10  lcrash
+   11  lclean
+   12  man lstart
+   13  lstart -f
+   14  lcrash
+   15  lclean
+   16  lstart -f
+   17  time
+   18  time lcrash
+   19  sudo dpkg -i synergy_1.14.2-stable.c6918b74_ubuntu20_amd64.deb 
+   20  sudo apt-get update && sudo apt-get upgrade
+   21  sudo apt --fix-broken-install
+   22  sudo apt-get update
+   23  sudo apt-get upgrade
+   24  sudo apt-get upgrade --fix-broken install
+   25  sudo apt-get install --fix-broken 
+   26  sudo apt-get upgrade
+   27  ls
+   28  sudo chmod +x synergy_1.14.2-stable.c6918b74_ubuntu20_amd64.deb 
+   29  sudo apt install ./synergy_1.14.2-stable.c6918b74_ubuntu20_amd64.deb 
+   30  syngergy
+   31  smb
+   32  smb:
+   33  sudo apt install smbc
+   34  smb://HEXAGON/Ubuntu-TOR
+   35  smb://192.168.1.214/Ubuntu-TOR
+   36  smb://192.168.1.214/
+   37  smb
+   38  smb://
+   39  ping 192.168.1.214
+   40  samba
+   41  s,b://192.168.1.214
+   42  sudo apt-get install samba
+   43  smb://192.168.1.214
+   44  smb
+   45  smbclient
+   46  smb
+   47  smb s
+   48  whereis samba
+   49  smb://HEXAGON/Ubuntu-TOR
+   50  cd /run/user/hex/gvfs/smb:host=HEXAGON/Ubuntu-TOR
+   51  apt -qq list samba-common samba smbclient
+   52  sudo  apt install samba-common samba smbclient
+   53  # ufw allow samba
+   54  # firewall-cmd --permanent --add-port={139/tcp,445/tcp}
+   55  # firewall-cmd --reload
+   56  smb
+   57  cd //HEXAGON
+   58  ping hexagon
+   59  nmap
+   60  sudo apt install nmap
+   61  nmap hexagon
+   62  nmap 192.168.1.214
+   63  nmap 192.168.1.214 -v
+   64  smbclient
+   65  smbclient HEXAGON/Ubuntu-TOR
+   66  smbclient //HEXAGON/Ubuntu-TOR
+   67  smbclient -L HEXAGON
+   68  smbclient -L HEXAGON -U
+   69  smbclient -L HEXAGON -U e
+   70  smbclient -L HEXAGON -U HexagonShare
+   71  smbclient -L HEXAGON\\Ubuntu-TOR -U HexagonShare
+   72  smbclient -L HEXAGON\Ubuntu-TOR -U HexagonShare
+   73  smbmount
+   74  sudo apt install kwartz-client
+   75  touch ConnectShare.sh
+   76  chmod +x ConnectShare.sh 
+   77  smbclient 
+   78  smbclient | grep L
+   79  man smbclient | grep L
+   80  smbclient
+   81  smbclient -I 192.168.1.254
+   82  smbclient 
+   83  smbclient HEXAGON\Ubuntu-TOR -U HexagonShare
+   84  smbclient \\HEXAGON\Ubuntu-TOR -U HexagonShare
+   85  smbclient HEXAGON\Ubuntu-TOR -U HexagonShare
+   86  smbclient HEXAGON\\Ubuntu-TOR -U HexagonShare
+   87  smbclient HEXAGON -U HexagonShare
+   88  smbclient \\HEXAGON -U HexagonShare
+   89  smbclient -L HEXAGON -U HexagonShare
+   90  smbclient \\\HEXAGON\\Ubuntu-TOR -U HexagonShare
+   91  smbclient \\\HEXAGON\\UbuntuTOR -U HexagonShare
+   92  smbclient \\\\HEXAGON\\UbuntuTOR -U HexagonShare
+   93  smbclient \\\\HEXAGON\\Ubuntu-TOR -U HexagonShare
+   94  smbmount
+   95  sudo apt-getm install smbfs
+   96  sudo mount -t cifs 
+   97  sudo mount -t cifs //HEXAGON/Ubuntu-TOR samba/ -o rw
+   98  ls
+   99  mkdir HexagonShare
+  100  ls
+  101  sudo mount -t cifs //HEXAGON/Ubuntu-TOR HexagonShare/ -o rw
+  102  sudo mount -t cifs //HEXAGON/Ubuntu-TOR HexagonShare/ -o rw -u HexagonShare
+  103  sudo mount -t cifs /--help
+  104  sudo mount.cifs //Hexagon/Ubuntu-Tor /HexagonShare -o username=HexagonShare,password=2801161231216
+  105  sudo mount.cifs //Hexagon/Ubuntu-Tor HexagonShare -o username=HexagonShare,password=2801161231216
+  106  touch e
+  107  sudo touch e
+  108  sudo gedit er
+  109  lstart
+  110  lcrash
+  111  lclean
+  112  lstart -f
+  113  lcrash
+  114  lclean
+  115  lstart-f
+  116  lstart -f
+  117  lcrash
+  118  lclean
+  119  cd ..
+  120  touch e
+  121  touch wafasfd
+  122  lstart
+  123  lcrash
+  124  lclean
+  125  lstart -f
+  126  lcrash
+  127  lclean
+  128  lstart
+  129  lcrash
+  130  lclean
+  131  lstart
+  132  lcrash
+  133  lclean
+  134  lstart
+  135  lcrash
+  136  lclean
+  137  lstart
+  138  lcrash
+  139  lclean
+  140  exit
+  141  lstart
+  142  lcrash
+  143  lclean
+  144  chmod sudo chown -R hex *
+  145  sudo chown -R hex *
+  146  sudo chmod -R 777
+  147  sudo chmod -R 777 *
+  148  sudo chmod a+rwx *
+  149  sudo chmod -R 777 *
+  150  sudo chmod -R 777 ./*
+  151  exit
+  152  lstart
+  153  lcrash
+  154  lclean
+  155  lstart
+  156  lcrash
+  157  lclean
+  158  sudo su
+  159  lstart
+  160  lcrash
+  161  lclean
+  162  touch test
+  163  rm test
+  164  sudo apt-get install graphviz
+  165  linfo -m map
+  166  sudo apt-get install graphviz
+  167  reboot
+  168  lsof /var/lib/dpkg/lock
+  169  sudo lsof /var/lib/dpkg/lock
+  170  ps -ax | grep apt
+  171  ps -ax | grep dpkg
+  172  ps -ax | grep 124560
+  173  sudo lsof /var/lib/dpkg/lock
+  174  sudo apt-get install graphviz
+  175  sudo lsof /var/lib/dpkg/lock
+  176  kill
+  177  kill 124560
+  178  sudo kill 124560
+  179  sudo lsof /var/lib/dpkg/lock
+  180  sudo apt-get install graphviz
+  181  sudo dpkg --configure -a
+  182  sudo apt-get install graphviz
+  183  linfo -m map
+  184  mkdir single-node
+  185  mkdir simple-lab
+  186  mkdir stress-test
+  187  mkdir tor-test
+  188  touch readme
+  189  touch node.startup
+  190  mkdir node
+  191  touch lab.conf
+  192  lstart
+  193  lcrash
+  194  lclean
+  195  ping 192.168.1.254
+  196  ifconfig
+  197  cd ..
+  198  cd tor-basic/
+  199  ls
+  200  touch lab.conf
+  201  touch lab.dep
+  202  touch shared.startup
+  203  touch relay1.startup
+  204  mkdir relay1
+  205  lstart
+  206  lcrash
+  207  lclean
+  208  lstart
+  209  lcrash
+  210  lclean
+  211  lstart
+  212  lcrash
+  213  lclean
+  214  lstart
+  215  lcrash
+  216  lclean
+  217  lstart
+  218  vpackage
+  219  sudo vpackage
+  220  man vpackage
+  221  linfo -m map
+  222  touch hosts
+  223  vcrash pc1
+  224  exit
+  225  touch sources
+  226  cd $HOME/.netkit
+  227  ls
+  228  cd hubs
+  229  ls
+  230  cat *.log
+  231  cat *ispA*
+  232  cd vhub_hex_ispB.cnct
+  233  cat vhub_hex_ispB.cnct
+  234  cd ..
+  235  ls
+  236  cd machines/
+  237  ls
+  238  cd pc3
+  239  ls
+  240  cat pid
+  241  mconsole
+  242  uml_mconsole mconsole
+  243  cd ..
+  244  ls
+  245  cd hubs/
+  246  ls
+  247  vhub_hex_ispA.cnct
+  248  socat
+  249  sudo apt install socat
+  250  ls
+  251  socat
+  252  socat - UNIX-CONNECT:vhub_hex_ispA.cnct
+  253  socat --help
+  254  nc
+  255  nc -U
+  256  nc -U vhub_hex_ispB.cnct
+  257  printf
+  258  printf GET | socat UNIX-CONNECT:vhub_hex_ispB.cnct -
+  259  socat UNIX-CONNECT:vhub_hex_ispB.cnct -
+  260  cd ..
+  261  cd machines/
+  262  cd pc1
+  263  ls
+  264  socat UNIX-CONNECT:mconsole -
+  265  printf GET | socat UNIX-CONNECT:mconsole -
+  266  uml_mconsole
+  267  uml_mconsole mconsole
+  268  cd ..
+  269  ls
+  270  cd hubs
+  271  ls
+  272  uml_mconsole vhub_hex_ispA.cnct
+  273  ls
+  274  cd ..
+  275  cd machines/
+  276  ls
+  277  cd pc1
+  278  ls
+  279  cat pid
+  280  cd..
+  281  ls
+  282  cd ..
+  283  cd pc2
+  284  ls
+  285  cat pid
+  286  echo blah > /tmp/fifo
+  287  cd /
+  288  ls
+  289  cd proc
+  290  ls
+  291  cd 525181
+  292  ls
+  293  cat cmdline
+  294  cat maps
+  295  ls
+  296  cd fd
+  297  ls
+  298  cd 0
+  299  0
+  300  cat 0
+  301  echo "n" >> 0
+  302  echo "n\n" >> 0
+  303  echo "n/n" >> 0
+  304  echo "n/n" > 0
+  305  echo "pwd" > 0
+  306  echo "wagwan" > 1
+  307  echo "wagwan" > 2
+  308  echo "wagwan" > 3
+  309  ls
+  310  cd ..
+  311  cd. ..
+  312  cd ..
+  313  cd /proc
+  314  cd 525183
+  315  ls
+  316  cd fd
+  317  echo "bypassthisbitch" > 0
+  318  ls
+  319  cd ..
+  320  ls
+  321  cat syscall
+  322  cat uid_map
+  323  cd root
+  324  ls
+  325  cd dev
+  326  ls
+  327  ls | grep st
+  328  echo "pwd" > stdin
+  329  pwd > stdin
+  330  cat pwd
+  331  ls
+  332  ls | grep st
+  333  cat  > stdin
+  334  whoami > stdin
+  335  whoami > stdout
+  336  ls
+  337  ls | grep pt
+  338  cd pts
+  339  ls
+  340  sudo ttyecho -n 5 :q
+  341  ttyecho
+  342  tty
+  343  sudo ttyecho -n 12 ls
+  344  cd ..
+  345  ls
+  346  cd tty0
+  347  sudo ttyecho -n tty0 ls
+  348  tty0 ls
+  349  tty0
+  350  apt-get install ttyecho
+  351  sudo ttyecho -n tty0 ls
+  352  tty
+  353  sudo ttyecho
+  354  sudo ttyecho -n 5 ls
+  355  sudo ttyecho -n tty0 ks
+  356  sudo ttyecho -n tty0 ls
+  357  sudo ttyecho -n * ls
+  358  ls
+  359  sudo ttyecho -n fd ls
+  360  sudo ttyecho -n tty ls
+  361  ls 
+  362  sudo ttyecho -n tty ls
+  363  ls 
+  364  sudo ttyecho -n tty ls
+  365  ls 
+  366  sudo ttyecho -n tty1 ls
+  367  sudo ttyecho -n tty2 ;s
+  368  sudo ttyecho -n tty2 ls
+  369  sudo ttyecho -n tty3 ls
+  370  sudo ttyecho -n tty4 ls
+  371  sudo ttyecho -n tty5 ls
+  372  sudo ttyecho -n tty6 ls
+  373  sudo ttyecho -n tty7 ls
+  374  sudo ttyecho -n tty0 pwd
+  375  sudo ttyecho -n tty0 whoami
+  376  sudo ttyecho -n stdin whoami
+  377  whoami 
+  378  sudo ttyecho -n stdin pwd
+  379  pwd 
+  380  cd fd
+  381  ls
+  382  echo "e" > 0
+  383  echo "e" > 1
+  384  echo "e" > 2
+  385  cd /home
+  386  ls
+  387  cd hex
+  388  mkfifo /tmp/fifo
+  389  gdb -p 525183
+  390  sudo gedit
+  391  make ttyecho
+  392  make ttyecho .
+  393  make ttyecho
+  394  sudo make *
+  395  make
+  396  make ttyecho.c
+  397  gcc -o ttyecho ttyecho.c
+  398  sudo apt install gcc
+  399  gcc -o ttyecho ttyecho.c
+  400  ttyecho
+  401  ./ttyecho
+  402  sudo ./ttyecho
+  403  ls
+  404  sudo cp ttyecho /bin/
+  405  cd /bin
+  406  ls | grep tty
+  407  sudo mount.cifs //Hexagon/Ubuntu-Tor HexagonShare -o username=HexagonShare,password=2801161231216,guest,uid=$(id -u),iocharset=utf8,file_mode=0777,dir_mode=0777,gid=$(id -g),noperm 0 0
+  408  touch pleb
+  409  touch torrc
+  410  touch genAuthKeyPy
+  411  sudo docker run --network tornet -e ROLE=DA antitree/private-tor
+  412  sudo docker run --network tornet -e ROLE=EXIT antitree/private-tor
+  413  sudo docker run --network tornet -e ROLE=RELAY antitree/private-tor
+  414  history
+  415  docker run -e ROLE=DA anitree/private-tor
+  416  sudo docker run -e ROLE=DA anitree/private-tor
+  417  /private-tor
+  418  docker run -e ROLE=DA antitree/private-tor
+  419  sudo docker run -e ROLE=DA antitree/private-tor
+  420  docker ps -a
+  421  sudo docker ps -a
+  422  sudo docker run --network tornet -e ROLE=DA antitree/private-tor
+  423  docker network create tornet
+  424  sudo docker network create tornet
+  425  sudo docker run --network tornet -e ROLE=DA antitree/private-tor
+  426  sudo docker run -e ROLE=DA antitree/private-tor
+  427  sudo docker run --network tornet -e ROLE=DA antitree/private-tor
+  428  ifconfig
+  429  docker ps -a
+  430  sudo docker ps -a
+  431  docker inspect 2f67391eae32
+  432  sudo docker inspect 2f67391eae32
+  433  docker ps
+  434  sudo docker ps
+  435  sudo docker exec 2f67391eae32 /bin/bash
+  436  sudo docker exec -it 2f67391eae32 /bin/bash
+  437  docker ps 
+  438  sudo docker ps 
+  439  sudo docker exec -it 55a2d3e130b4 /bin/bash
+  440  sudo docker ps
+  441  ls
+  442  sudo mount.cifs //Hexagon/Ubuntu-Tor HexagonShare -o username=HexagonShare,password=2801161231216,guest,uid=$(id -u),iocharset=utf8,file_mode=0777,dir_mode=0777,gid=$(id -g),noperm 0 0
+  443  sudo apt install git
+  444  git clone https://github.com/netkit-jh/netkit-jh-build.git
+  445  ls
+  446  cd netkit-jh-build/
+  447  ls
+  448  got status
+  449  git status
+  450  cd ..
+  451  git status
+  452  linux
+  453  linux \ root=/dev/root
+  454  apt-get install user-mode-linux
+  455  sudo apt-get install user-mode-linux
+  456  vmlinux
+  457  ls
+  458  mkdir uml-test
+  459  cd uml-test/
+  460  ls
+  461  vmlinux
+  462  sudo apt-get install user-mode-linux
+  463  lstart
+  464  lcrash
+  465  history
+  466  vstart --help
+  467  vstart -p dirauth1
+  468  vstart -vp dirauth1
+  469  vstart -vp dirauth1 --append con2=null
+  470  home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=null SELINUX_INIT=0
+  471  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=null SELINUX_INIT=0
+  472  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=tty:/dev/tty3 SELINUX_INIT=0
+  473  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=none SELINUX_INIT=0
+  474  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=null SELINUX_INIT=0
+  475  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=tty:/dev/tty3 SELINUX_INIT=0
+  476  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=null device=pty SELINUX_INIT=0
+  477  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=null ssl3=tty:/dev/tty2,xterm SELINUX_INIT=0
+  478  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=tty:/dev/tty6 SELINUX_INIT=0
+  479  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=pty:/dev/pty2 SELINUX_INIT=0
+  480  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con1=null ssl=port:9000 SELINUX_INIT=0
+  481  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex ssl3=tty:/dev/tty2,xterm SELINUX_INIT=0
+  482  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con=pts SELINUX_INIT=0
+  483  /home/hex/netkit-jh/bin/block-wrapper xterm dirauth1 /home/hex/netkit-jh/kernel/netkit-kernel name=dirauth1 title=dirauth1 umid=dirauth1 mem=132M ubd0=/home/hex/netkit-lab/tor-basic/dirauth1.disk,/home/hex/netkit-jh/fs/netkit-fs root=98:0 uml_dir=/home/hex/.netkit/machines hosthome=/home/hex con0=fd:0,fd:1 con=ptshistyory SELINUX_INIT=0
+  484  history
+  485  history >> important-history

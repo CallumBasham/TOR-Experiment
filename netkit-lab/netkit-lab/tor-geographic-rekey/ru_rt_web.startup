@@ -1,0 +1,18 @@
+ifconfig eth0 83.3.3.253/24
+ifconfig eth1 172.16.0.1/24
+
+route add default gw 83.3.3.1 dev eth0
+
+# Nat with port forwards for the web server
+# Enables IP Forwarding (for Nat later)
+echo "1" > /proc/sys/net/ipv4/ip_forward
+
+# Mask LAN to WAN traffic as itself, e.g. all traffic from LAN = this eth0 device's IP.
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE 
+
+# Port forward WAN traffic destined for LAN's WebSrv
+iptables -A FORWARD -m state -p tcp --state NEW,ESTABLISHED,RELATED -j ACCEPT # create stateful connections, allows the return trips
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-dest 172.16.0.2:80 # route to LAN's port 80 HTTP
+iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to-dest 172.16.0.2:443 # route to LAN's port 443 HTTPS
+
+#route add -net 120.2.2.0/24 gw 69.69.69.1 dev eth0

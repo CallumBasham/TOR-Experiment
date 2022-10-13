@@ -1,0 +1,5 @@
+echo "HEX: Shared Startup Initiated"
+
+# Get Machine Name
+machine_name=$(echo $(uname -n))
+echo $machine_name

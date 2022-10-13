@@ -1,0 +1,16 @@
+# ispA <-> webserver
+ifconfig eth0 62.3.3.3/29
+
+route add default gw 62.3.3.1
+
+# Gateway behind ispB
+route add -net 65.4.4.1/30 gw 62.3.3.1 dev eth0
+
+# Start Apache
+service apache2 start
+# test
+curl localhost
+
+
+
+

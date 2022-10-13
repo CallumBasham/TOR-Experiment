@@ -1,0 +1,13 @@
+This directory contains netkit lab's which are used to test the feasability of using Tor within the current host-environment. 
+
+1. single-node
+A single netkit node without networking in its base state
+
+2. simple-lab
+A very small network-enabled lab with basic services enabled 
+
+3. stress-test
+A large lab with lots of network activity and services to stress-test the host's ability
+
+4. tor-test
+A test utilising the tor service to speciifcally measure the feasability for Tor usage

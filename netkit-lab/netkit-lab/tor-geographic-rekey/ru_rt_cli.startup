@@ -1,0 +1,13 @@
+ifconfig eth0 83.3.3.254/24
+ifconfig eth1 192.168.0.1/24
+
+route add default gw 83.3.3.1 dev eth0
+
+#  NAT as a normal router would
+# Enables IP Forwarding (for Nat later)
+echo "1" > /proc/sys/net/ipv4/ip_forward
+
+# Mask LAN to WAN traffic as itself, e.g. all traffic from LAN = this eth0 device's IP.
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE 
+
+#route add -net 120.2.2.0/24 gw 69.69.69.1 dev eth0

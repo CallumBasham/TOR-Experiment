@@ -1,0 +1,40 @@
+TestingTorNetwork 1
+DataDirectory /var/lib/tor
+RunAsDaemon 1
+ConnLimit 60
+Nickname relay14
+ShutdownWaitLength 0
+PidFile /var/lib/tor/pid
+Log notice file /var/log/tor/notice.log
+Log info file /var/log/tor/info.log
+Log debug file /var/log/tor/debug.log
+ProtocolWarnings 1
+SafeLogging 0
+DisableDebuggerAttachment 0
+SocksPort 0
+OrPort 5000
+ControlPort 9051
+Address 120.2.2.25
+#DirPort 7000
+#ExitPolicy accept 0.0.0.0/0:*
+#ExitPolicy accept [::1]:*
+#IPv6Exit 1
+#ExitRelay 1 #allows as exit relay
+#AuthoritativeDirectory 1
+#V3AuthoritativeDirectory 1
+ContactInfo relay14@cyber.test
+#TestingV3AuthInitialVotingInterval 300
+#TestingV3AuthInitialVoteDelay 20
+#TestingV3AuthInitialDistDelay 20
+CookieAuthentication 0
+
+AssumeReachable 1
+DirAuthority dirauth4 orport=5000 no-v2 v3ident=BCC06E271127D03DBA69D2E56E78448C8ACE92EB 120.2.2.5:7000 DCC97185CF980A7A0E1D4CC4145205345EDFF848
+DirAuthority dirauth5 orport=5000 no-v2 v3ident=1B4EB9014B33DDA9311676591F01DE4CE6A46E12 120.2.2.6:7000 C0D9C6A8EE1D82BF2099BFD6B71B4AE55C525711
+DirAuthority dirauth6 orport=5000 no-v2 v3ident=B181160806D83E4183CF26772D9D19CB76CB5E9F 120.2.2.7:7000 76B48B5F8D309CB60FF1A0EF58D1A9C418AE9535
+DirAuthority dirauth7 orport=5000 no-v2 v3ident=0835334ADE2FED3985E683D6CB8DEDE7AB836FCB 120.2.2.8:7000 C5D9612BB1A908698FAD7A1BEEFE35D9A70EE986
+DirAuthority dirauth1 orport=5000 no-v2 v3ident=99D44951D318BCEF6DA426B6BF9A86ED7BA38028 120.2.2.2:7000 0AB69FC4FD460CC41D0EA375C40535D7E07EEB05
+DirAuthority dirauth2 orport=5000 no-v2 v3ident=53DB875DC155F6E7C25372A7006C2A4260E1DDB0 120.2.2.3:7000 C25DF374CE4139696C570D56CECAA6395E3DE523
+DirAuthority dirauth3 orport=5000 no-v2 v3ident=352B469B28D9F1CD17D19641680C8EA81FFF98D9 120.2.2.4:7000 C2BD573517052C5ED55C922653935FB0CFA6C5ED
+DirAuthority dirauth8 orport=5000 no-v2 v3ident=13085FE897E9E43F016A05977F90205A11B03075 120.2.2.9:7000 A8490D7B4294583529BC7D1D881EC1862C150541
+DirAuthority dirauth9 orport=5000 no-v2 v3ident=DB922E8755B62E5ABEE58642F67713CC1F5E39E8 120.2.2.10:7000 0A0875B94154B87BA3DE4C6941A66F2C2991392F

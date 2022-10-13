@@ -1,0 +1,7 @@
+# lanA
+ifconfig eth0 10.10.0.2/24
+
+route add default gw 10.10.0.1
+
+# Connect to the apache server to test routing
+curl 62.3.3.3

@@ -1,0 +1,29 @@
+# ispA <-> gw1-2
+ifconfig eth0 62.3.3.2/29
+
+# lanA
+ifconfig eth1 192.168.0.1/24
+ifconfig eth1 hw ether 02:60:ac:9a:bc:08
+
+
+
+# NAT
+echo "1" > /proc/sys/net/ipv4/ip_forward
+iptables -t nat -A POSTROUTING -o eth0 ! -d 192.168.0.0/24 -j SNAT --to-source 62.3.3.2 -m comment --comment "NAT outbound traffic only to this eth0 source"
+
+
+# default gateway = ISP
+route add default gw 62.3.3.1
+
+# DNS / DHCP
+
+# bring up eth0 according to settings in /etc/network/interfaces
+#ifup eth0
+
+# ~~~~~ D H C P ~~~~~~~
+# look in /etc/dnsmasq.conf + dnsmasq.local.conf  for settings
+# Note that by setting the port to 0, then DNS is disabled.
+/etc/init.d/dnsmasq start
+
+dhclient eth1
+

@@ -1,0 +1,10 @@
+# lanA
+#ifconfig eth0 192.168.0.2/24
+ifconfig eth0 hw ether 02:60:ac:9a:bc:04
+dhclient
+
+# default gateway = gateway to ISP
+#route add default gw 192.168.0.1
+
+# Connect to the apache server to test routing
+curl 62.3.3.3

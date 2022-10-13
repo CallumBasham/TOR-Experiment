@@ -1,0 +1,21 @@
+TestingTorNetwork 1
+DataDirectory /var/lib/tor
+RunAsDaemon 1
+ConnLimit 60
+Nickname client
+ShutdownWaitLength 0
+PidFile /var/lib/tor/pid
+Log notice file /var/log/tor/notice.log
+Log info file /var/log/tor/info.log
+Log debug file /var/log/tor/debug.log
+ProtocolWarnings 1
+SafeLogging 0
+DisableDebuggerAttachment 0
+SocksPort 9050
+ControlPort 9051
+Address 192.168.0.2
+DirAuthority dirauth4 orport=5000 no-v2 v3ident=80B30E241BB38E1D3321AA6A4F2AE159BDCBB418 120.2.2.5:7000 35C9045D510517F20A426DD54471BFF5F5E925D9
+DirAuthority dirauth5 orport=5000 no-v2 v3ident=74C808D03E4B5938DA3A8F923FA6104F578B33B6 120.2.2.6:7000 4C831250B782F4E004E8D53327E7FD91CC18E28C
+DirAuthority dirauth1 orport=5000 no-v2 v3ident=93A495FA8A86775B7CECA186A766350BA5C0A1E6 120.2.2.2:7000 0A893BF0B391CE4918EBC21D05A1810856F1BD22
+DirAuthority dirauth2 orport=5000 no-v2 v3ident=BC309052916DBE2CED603030E2E86773E36BE6B3 120.2.2.3:7000 E3AAAF51C2670394C62DE9971675CE57AB399959
+DirAuthority dirauth3 orport=5000 no-v2 v3ident=2B8ABA7A4314B60988F8B3F3700553C01B18AB99 120.2.2.4:7000 70A5DCE98A0F52B25F52D307B6B1B9C6674D966B

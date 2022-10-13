@@ -1,0 +1,19 @@
+ifconfig eth0 172.16.0.2/24
+route add default gw 172.16.0.1
+
+# Start apache
+service apache2 start
+
+# Build WebSrv contents
+rm -rf /var/www/html/*
+touch var/www/html/index.php
+
+echo "<?php" >> /var/www/html/index.php
+echo "echo 'php version: ' . phpversion(); " >> /var/www/html/index.php
+echo "?>"  >> /var/www/html/index.php
+
+echo "<html>" >> /var/www/html/index.php
+echo "<body>" >> /var/www/html/index.php
+echo "<h1>Welcome: <?php echo \$_SERVER['REMOTE_ADDR']; ?></h1>" >> /var/www/html/index.php
+echo "</body>" >> /var/www/html/index.php
+echo "</html>" >> /var/www/html/index.php

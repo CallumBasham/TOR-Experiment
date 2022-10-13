@@ -1,0 +1,8 @@
+# Tor state file last generated on 2021-12-10 13:26:10 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+Dormant 0
+LastWritten 2021-12-10 13:26:10
+MinutesSinceUserActivity 1
+TorVersion Tor 0.4.5.10

@@ -1,0 +1,5 @@
+gw1-2: ispA
+gw3-4: ispB
+
+pc1 pc2: gw1-2
+pc3 pc4:gw3-4

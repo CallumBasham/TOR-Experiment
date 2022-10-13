@@ -1,0 +1,2 @@
+ifconfig eth0 69.69.69.1/28
+ifconfig eth1 120.2.2.1/24
